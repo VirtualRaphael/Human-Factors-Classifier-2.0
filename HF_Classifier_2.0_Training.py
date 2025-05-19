@@ -13,7 +13,48 @@ BATCH_SIZE = 16
 GRADIENT_ACCUM_STEPS = 2
 LEARNING_RATE = 5e-5
 MAX_LEN = 512
-LABEL_COLUMNS = ['Insufficient skills', 'Wrong reasoning', 'Time pressure']  # Replace with actual column names
+LABEL_COLUMNS = [
+    'Wrong Object',
+    'Memory failure',
+    'Fear',
+    'Distraction',
+    'Fatigue',
+    'Performance Variability',
+    'Inattention',
+    'Physiological stress',
+    'Psychological stress',
+    'Functional impairment',
+    'Cognitive style',
+    'Cognitive bias',
+    'Equipment failure',
+    'Software fault',
+    'Inadequate procedure',
+    'Access limitations',
+    'Ambiguous information',
+    'Incomplete information',
+    'Access problems',
+    'Mislabelling',
+    'Communication failure',
+    'Missing information',
+    'Maintenance failure',
+    'Inadequate quality control',
+    'Management problem',
+    'Design failure',
+    'Inadequate task allocation',
+    'Social pressure',
+    'Insufficient skills',
+    'Insufficient knowledge',
+    'Temperature',
+    'Sound',
+    'Humidity',
+    'Illumination',
+    'Other',
+    'Adverse ambient conditions',
+    'Excessive demand',
+    'Inadequate work place layout',
+    'Inadequate team support',
+    'Irregular working hours'
+]
 DATA_PATH = 'MATA_D_VirtRaph_Complete.xlsx'
 TEXT_COLUMN = 'Accident Description'
 
