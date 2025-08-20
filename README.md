@@ -13,7 +13,7 @@ The ultimate goal is to expand MATA-D with new and modern accident reports, supp
 
 Setup
 1. Clone the repo
-  git clone https://github.com/yourusername/HF_Classifier_2.0.git
+  git clone https://github.com/VirtualRaphael/HF_Classifier_2.0.git
   cd HF_Classifier_2.0
 
 2. Install dependencies
